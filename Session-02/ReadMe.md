@@ -15,6 +15,10 @@ Remember that it is better to try and work out the solution,
 and not succeed than it is to simply use Google, Bing, or AI to
 find a solution and copy the code.
 
+We have, for this session, provided you with the starter stub 
+code, but you must complete the comments with the relevant 
+details for each problem.
+
 ### Problem 1
 
 Filename: `Session-02/totaliser.py`
@@ -42,7 +46,7 @@ number = int(number)
 
 ### Problem 2
 
-Filename: `Session-02/multiply.py`
+Filename: `Session-02/multiplier.py`
 
 
 Write a program to accept two numbers from the user. The program then will
