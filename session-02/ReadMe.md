@@ -21,7 +21,7 @@ details for each problem.
 
 ### Problem 1
 
-Filename: `Session-02/totaliser.py`
+Filename: `session-02/totaliser.py`
 
 Write a program that, asks the user for their name, and then 
 asks the user for a number, plus asks the user for a second
@@ -46,7 +46,7 @@ number = int(number)
 
 ### Problem 2
 
-Filename: `Session-02/multiplier.py`
+Filename: `session-02/multiplier.py`
 
 
 Write a program to accept two numbers from the user. The program then will
@@ -59,7 +59,7 @@ the program will display the result in a manner similar to:
 
 ### Problem 3
 
-Filename: `Session-02/constant-stars.py`
+Filename: `session-02/constant-stars.py`
 
 
 Write a program that uses the print() function to display three
@@ -71,7 +71,7 @@ Python**is**Brilliant
 
 ### Problem 4
 
-Filename: `Session-02/number-again.py`
+Filename: `session-02/number-again.py`
 
 Write a program that asks the user for a number. The program is 
 then to calculate the total of the number entered and the number plus 1.

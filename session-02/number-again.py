@@ -5,7 +5,7 @@
 # ADD SHORT EXPLANATION OF THE PROGRAM HERE
 #
 # File:      Source/Repos/ICTPRG302/Sessions/
-#                         Session-02/FILENAME.py
+#                         session-02/FILENAME.py
 # Author:    YOUR_NAME <STUDENT_ID@tafe.wa.edu.au>
 # Version:   1.0
 #

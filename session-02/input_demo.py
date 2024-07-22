@@ -4,7 +4,7 @@
 #
 # YOU CAN ADD A DESCRIPTION LATER
 #
-# File:      Source/Repos/ICTPRG302/Sessions/Session-02/input_demo.py
+# File:      Source/Repos/ICTPRG302/Sessions/session-02/input_demo.py
 # Author:    Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
 # Version:   1.0
 #

@@ -4,7 +4,7 @@
 #
 # YOU CAN ADD A DESCRIPTION LATER
 #
-# File:         Source/Repos/ICTPRG302/Session-01/basics.py
+# File:         Source/Repos/ICTPRG302/session-01/basics.py
 # Author:       Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
 # Version:      1.0
 #   
