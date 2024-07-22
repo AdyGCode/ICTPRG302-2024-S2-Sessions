@@ -28,6 +28,16 @@ before displaying the results in a form similar to:
 Jane, the total of 2 and 4 is 6
 ```
 
+#### Hint:
+Remember to convert the input from text (strings) to 
+integers before using the values...
+
+```python
+number = input("Number 1: ")
+number = int(number)
+```
+
+
 ### Problem 2
 
 Write a program to accept two numbers from the user. The program then will
