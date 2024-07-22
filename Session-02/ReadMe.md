@@ -17,6 +17,8 @@ find a solution and copy the code.
 
 ### Problem 1
 
+Filename: `Session-02/totaliser.py`
+
 Write a program that, asks the user for their name, and then 
 asks the user for a number, plus asks the user for a second
 number. 
@@ -40,6 +42,9 @@ number = int(number)
 
 ### Problem 2
 
+Filename: `Session-02/multiply.py`
+
+
 Write a program to accept two numbers from the user. The program then will
 calculate the result of multiplying the two numbers together. Finally,
 the program will display the result in a manner similar to:
@@ -50,6 +55,9 @@ the program will display the result in a manner similar to:
 
 ### Problem 3
 
+Filename: `Session-02/constant-stars.py`
+
+
 Write a program that uses the print() function to display three
 words (store them in CONSTANTS) in the form:
 
@@ -58,6 +66,8 @@ Python**is**Brilliant
 ```
 
 ### Problem 4
+
+Filename: `Session-02/number-again.py`
 
 Write a program that asks the user for a number. The program is 
 then to calculate the total of the number entered and the number plus 1.
