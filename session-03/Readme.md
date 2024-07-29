@@ -3,7 +3,42 @@
 This session contains examples and problems for
 the practice of ...
 
+## Cases
+
+| Type of Case | Example             | When Used                                  |
+|--------------|---------------------|--------------------------------------------|
+| Camel        | totalCost           | any variable C, C#, JavaScript             |
+| Pascal       | AnimalFarm          | used with classes                          |
+| Snake        | total_cost          | Python, variables and functions, filenames |
+| Kebab        | price-calculator.cs | filenames in most languages                |
+| Shouty/Angry | PI USERNAME         | Constants |
+| Angry Snake  | DATABASE_USER | Ini files, environment variables, constants |
+
+
+
+
 ## Extra Resources
+
+How to quickly create your folders in the BASH terminal:
+
+### All Standard TAFE PCs
+
+```bash
+cd /c/Users/STUDENT_ID/
+mkdir -p Source/Repos
+cd Source/Repos
+mkdir -p ICTPRG302/{Assessments,Sessions}
+```
+
+### All TDM (Room 3-06) PCs
+
+```bash
+cd /c/Users/YOUR_USERNAME/
+mkdir -p Source/Repos
+cd Source/Repos
+mkdir -p ICTPRG302/{Assessments,Sessions}
+```
+
 
 ## Practice
 
@@ -22,4 +57,4 @@ to each Python file it creates.
 
 ### Problem 1
 
-Filename: `Session-02/totaliser.py`
+Filename: `...`
