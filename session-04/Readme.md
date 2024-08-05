@@ -32,7 +32,22 @@ Blackboard sessions
 - Click APPLY
 - Click OK
 
-Next time you create a Python file the 
+Next time you create a Python file the file will start with code similar to:
+
+```text
+# --------------------------------------------------------
+#
+# ADD PROGRAM TITLE HERE
+#
+# ADD SUMMARY OF PROGRAM HERE
+#
+# Folder:    session-04
+# Filename:  demo_input_try_v2.py
+# Author:    YOURNAME <STUDENT_ID@tafe.wa.edu.au>
+# Version:   0.0
+# 
+# --------------------------------------------------------
+```
 
 ## Practice
 

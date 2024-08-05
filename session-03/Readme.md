@@ -1,5 +1,9 @@
 # Session 03
 
+Useful supplementary learning:
+https://cs50.harvard.edu/python/2022/
+``
+
 This session contains examples and problems for
 the practice of ...
 

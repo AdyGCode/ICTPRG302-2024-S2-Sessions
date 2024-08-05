@@ -17,7 +17,10 @@ character = input("Enter a letter: ")
 print("Is it a digit? ", character.isdigit())
 print("Is it alpha? ", character.isalpha())
 print("Is it uppercase? ", character.isupper())
-print("Is it lower case? ", character.islower())
+print("Is it lowercase? ", character.islower())
 
 if character.isupper():
     print("Upper case!")
+elif character.islower():
+    print('Lower case!')
+
