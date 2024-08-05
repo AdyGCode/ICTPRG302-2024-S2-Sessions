@@ -17,7 +17,9 @@ try:
     value = int(value)
 except:
     # Bare except gives PyCharm hint
+    # ICTPRG302 will only use this version of except.
+    #
     # Adrian indicated that except ValueError
-    # would be more 'precise'
+    # would be more 'precise' and used in later units.
     print("ERROR! Not a number")
 
