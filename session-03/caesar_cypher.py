@@ -3,7 +3,7 @@
 # Caesar Cypher (Mark Anthony version)
 #
 # Folder:    session-03
-# Filename:  caesar-cypher.py
+# Filename:  caesar_cypher.py
 # Author:    Adrian Gould <adrian.gould@nmtafe.wa.edu.au>
 # Version:   1.0
 # 
