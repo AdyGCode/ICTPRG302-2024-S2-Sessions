@@ -3,7 +3,7 @@
 
 ## Functions
 
-
+Quick review notes on functions.
 ### Void (Non Fruitful) Functions
 
 - Do not return a value
@@ -23,8 +23,8 @@ Code: [functions_void.py](functions_void.py)
 
 ### Functions with (Positional) Parameters
 
-- Defines one or more parameters
-- Accepts the same number of arguments
+- Define one or more parameters
+- Accepts exactly the same number of arguments
 - Each argument *must* match the parameter in the same position
 - If number of arguments does not match number of parameters then an error will occur
 
@@ -36,9 +36,11 @@ def welcome(persons_name):
 ```
 
 Calling `welcome`, and missing the argument:
+
 ```python
 welcome()
 ```
+
 Gives output of:
 
 ```text
@@ -96,6 +98,27 @@ welcome("Jill", character="*")
 ```
 
 Code: [functions_with_positional_and_named_parameter.py](functions_with_positional_and_named_parameter.py)
+
+
+Small change in this example - both parameters are named.
+
+```python
+
+def welcome(person="", character="-"):
+    print(character * 50)
+    print(f"Welcome to this demo, {person}")
+    print(character * 50)
+
+
+welcome()
+welcome("Janette")
+welcome("Josiah", "#")
+# Cannot use welcome(person="Eve","%") as named parameters must be last
+welcome("Stacey", character="*")
+welcome(person="Bradley", character="=")
+```
+
+Code: [functions_with_multiple_named_parameters.py](functions_with_multiple_named_parameters.py)
 
 
 ### Functions that return results (Fruitful)
