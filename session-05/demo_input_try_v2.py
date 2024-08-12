@@ -1,17 +1,18 @@
 # --------------------------------------------------------
 #
-# ADD PROGRAM TITLE HERE
+# Demo of input and try with functions
 #
-# ADD SUMMARY OF PROGRAM HERE
+# Creating an input function for decimal numbers
+# that provides an error
 #
-# Folder:    session-04
+# Folder:    session-05
 # Filename:  demo_input_try_v2.py
-# Author:    YOURNAME <STUDENT_ID@tafe.wa.edu.au>
-# Version:   0.0
+# Author:    Adrian Gould <Adrian.Gould@nmtafe.wa.edu.au>
+# Version:   1.0
 # 
 # --------------------------------------------------------
 
-def get_decimal(prompt):
+def get_decimal(prompt="Enter a number: "):
     while True:
         value = input(prompt)
         try:
@@ -32,5 +33,9 @@ if quantity_apples == 0:
 elif cost_of_apples == 0:
     print("Your apples are free!")
 else:
-    print("Total cost for " + str(quantity_apples) + "kg at $" +
-          str(cost_of_apples) + " per kg is $" + str(total_cost))
+    # print("Total cost for " + str(quantity_apples) + "kg at $" +
+    #       str(cost_of_apples) + " per kg is $" + str(total_cost))
+    print(f"Total cost for {quantity_apples:<10.2f}kg "
+          f"at ${cost_of_apples:>10.2f} per kg "
+          f"is ${total_cost:^10.2f}")
+
