@@ -1,4 +1,4 @@
-# Session 03
+# Session 04
 
 Blackboard sessions
 
@@ -24,7 +24,7 @@ Blackboard sessions
 #
 # Folder:    ${DIR_PATH}
 # Filename:  ${FILE_NAME}
-# Author:    YOURNAME <STUDENT_ID@tafe.wa.edu.au>
+# Author:    Adrian Gould <Adrian.Gould@nmtafe.wa.edu.au>
 # Version:   0.0
 # 
 # --------------------------------------------------------
@@ -43,7 +43,7 @@ Next time you create a Python file the file will start with code similar to:
 #
 # Folder:    session-04
 # Filename:  demo_input_try_v2.py
-# Author:    YOURNAME <STUDENT_ID@tafe.wa.edu.au>
+# Author:    Adrian Gould <Adrian.Gould@nmtafe.wa.edu.au>
 # Version:   0.0
 # 
 # --------------------------------------------------------

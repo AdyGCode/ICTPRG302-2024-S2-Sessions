@@ -6,7 +6,7 @@
 #
 # Folder:    session-04
 # Filename:  demo_total_numbers.py
-# Author:    YOURNAME <STUDENT_ID@tafe.wa.edu.au>
+# Author:    Adrian Gould <Adrian.Gould@nmtafe.wa.edu.au>
 # Version:   0.0
 # 
 # --------------------------------------------------------
