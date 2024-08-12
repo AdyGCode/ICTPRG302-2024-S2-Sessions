@@ -9,9 +9,9 @@
 # 
 # --------------------------------------------------------
 
-def welcome(name):
+def welcome(persons_name):
     print("-" * 50)
-    print(f"Welcome to this demo, {name}")
+    print(f"Welcome to this demo, {persons_name}")
     print("-" * 50)
 
 
