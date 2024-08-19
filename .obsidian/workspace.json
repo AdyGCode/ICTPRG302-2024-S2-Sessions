@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "session-05/Readme.md",
+                "file": "session-06/Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "session-05/Readme.md",
+                "file": "session-06/Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "session-05/Readme.md",
+                "file": "session-06/Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "session-05/Readme.md"
+                "file": "session-06/Exercises.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "bcb5e695e84e9fd0",
   "lastOpenFiles": [
+    "session-06/PseudoCode.md",
+    "session-06/Exercises.md",
+    "session-06/Flowcharts.md",
+    "session-06/Algorithms.md",
+    "session-06/Readme.md",
+    "session-05/Readme.md",
     "session-05/functions_with_multiple_named_parameters.py~",
     "session-05/functions_with_multiple_named_parameters.py",
     "session-04/Readme.md",
@@ -159,9 +165,7 @@
     "session-05/functions_with_positional_and_named_parameter.py",
     "session-05/functions_with_named_parameter.py~",
     "session-05/functions_void.py~",
-    "session-05/functions_with_parameter_and_result.py",
     "session-03/Readme.md",
-    "session-05/Readme.md",
     "ReadMe.md"
   ]
 }
