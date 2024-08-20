@@ -65,8 +65,9 @@ There are a number of basic building blocks:
 - Conditional
 - End
 
-### Start & End
+### Start & End Terminators
 
+They signify the start of the pseudocode and the end of the pseudocode.
 
 
 ### Sequence
@@ -74,11 +75,11 @@ There are a number of basic building blocks:
 A sequence is a set of steps that are completed, and may include each of those shown below, plus Iterations and Conditionals.
 
 | Block Type | Examples                          |
-| ---------- | --------------------------------- |
+| ---------- |-----------------------------------|
 | input      | Read, Get, Ask For, Obtain, Input |
 | output     | Print, Display, Output            |
 | compute    | Calculate, Determine, Work Out    |
-| initialise | Set, Init, Initialise             |
+| initialise | Set, Init, Initialise, Define     |
 | add        | Increment, Inc, Add               |
 | subtract   | Decrement, Dec, Subtract          |
 
@@ -87,9 +88,9 @@ A sequence is a set of steps that are completed, and may include each of those s
 
 | Block Type                       | Example                                                |
 | -------------------------------- | ------------------------------------------------------ |
-| For                              | For count from 1 to 100<br>    Sequence<br>End For     |
-| While                            | While count less than 100<br>    sequence<br>End While |
-| Repeat ... Until<br>Do ... While | Repeat<br>    Sequence<br>Until Condition              |
+| For                              | For count from 1 to 100<br>        Sequence<br>End For     |
+| While                            | While count less than 100<br>        sequence<br>End While |
+| Repeat ... Until<br>Do ... While | Repeat<br>        Sequence<br>Until Condition              |
 
 
 
@@ -101,8 +102,8 @@ There is a special conditional called the CASE, which we will also show.
 
 | Block Type | Example                                                                                                                                                                                    |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| IF         | IF _condition_ THEN  <br>    sequence1  <br>ELSE  <br>    sequence2  <br>ENDIF                                                                                                             |
-| CASE       | CASE _expression_ OF  <br>    condition 1: sequence 1  <br>    condition 2: sequence 2  <br>    ......  <br>    condition n: sequence n  <br>OTHERS:  <br>    default sequence<br>END CASE |
+| IF         | IF _condition_ THEN  <br>        sequence1  <br>ELSE  <br>    sequence2  <br>ENDIF                                                                                                             |
+| CASE       | CASE _expression_ OF  <br>       condition 1: sequence 1  <br>        condition 2: sequence 2  <br>        ......  <br>        condition n: sequence n  <br>OTHERS:  <br>        default sequence<br>END CASE |
 The **Others** of the Case **block** may be written as **Otherwise**, or even **Default**, or **Else** if you want.
 
 
@@ -193,14 +194,38 @@ print("Think of a number between 1 and 100, inclusive")
 
 while True:
 	guess = int((largest + smallest) / 2)
+    
 	response = input(f"Is {guess} too (L)arge, (S)small, or (C)orrect?")
 
 	if response.lower() == "s":
-		smallest = guess
+		smallest = guess + 1
 	
 	if response.lower() == "l": 
-		largest = guess
+		largest = guess - 1
 	
 	if response.lower() == "c":
 		break
 ```
+
+An alternative way to write this **without** using `break` is:
+
+```python
+smallest = 1
+largest = 100
+number_found = not True  # Ok, so we can write False here, but it reads nicely
+
+print("Think of a number between 1 and 100, inclusive")
+
+while not number_found:
+    guess = int((largest + smallest) / 2)
+    
+    response = input(f"Is my {guess} too (L)arge, (S)small, or (C)orrect?").lower()
+
+    if response == "s":
+        smallest = guess + 1
+    elif response == "l":
+        largest = guess - 1
+    else:
+        number_found = True
+```
+
