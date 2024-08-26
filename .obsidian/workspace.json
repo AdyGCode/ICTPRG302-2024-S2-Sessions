@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "session-06/PseudoCode.md",
+                "file": "session-06/Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "b0d2c34c1f1f3eb8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "session-06/PseudoCode.md",
+                "file": "session-06/Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "session-06/PseudoCode.md",
+                "file": "session-06/Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "session-06/PseudoCode.md"
+                "file": "session-06/Exercises.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   "active": "bcb5e695e84e9fd0",
   "lastOpenFiles": [
     "session-06/Flowcharts.md~",
-    "session-06/Algorithms.md",
-    "session-06/Exercises.md",
     "session-06/PseudoCode.md",
+    "session-06/Exercises.md",
     "session-06/Flowcharts.md",
+    "session-06/Algorithms.md",
     "session-06/Readme.md",
     "session-05/Readme.md",
     "session-05/functions_with_multiple_named_parameters.py~",
