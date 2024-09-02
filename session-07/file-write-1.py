@@ -11,7 +11,9 @@
 
 write_handle = open('players.txt', 'w')
 
-write_handle.write('DinoShark\nMouseDragon')
-write_handle.write('MonkeyHorse\nPandaShrew')
+# We need to write a \n (Newline) after each entry as
+# .write does not append a newline
+write_handle.write('DinoShark\nMouseDragon\n')
+write_handle.write('MonkeyHorse\nPandaShrew\n')
 
 write_handle.close()
