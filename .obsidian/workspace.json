@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "session-06/Exercises.md",
+                "file": "session-08/Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b0d2c34c1f1f3eb8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "session-06/Exercises.md",
+                "file": "session-08/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "session-06/Exercises.md",
+                "file": "session-08/Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "session-06/Exercises.md"
+                "file": "session-08/Readme.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "bcb5e695e84e9fd0",
   "lastOpenFiles": [
+    "requirements.txt",
+    "session-06/Exercises.md",
     "session-07/file-write-1.py~",
     "session-07/players.txt",
     "session-07/quick.txt",
@@ -158,9 +160,7 @@
     "session-07/file-read-8.py",
     "session-07/file-read-7.py",
     "session-07/file-read-6.py",
-    "session-07/file-read-5.py",
     "session-06/PseudoCode.md",
-    "session-06/Exercises.md",
     "session-06/Flowcharts.md",
     "session-06/Algorithms.md",
     "session-06/Readme.md",
